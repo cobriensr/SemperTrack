@@ -13,5 +13,5 @@ export interface PromotionPoints {
     cft: number;
     marineCorpsInstitute: number;
     offDutyEducation: number;
-    awards: Award[];
+    awards: [];
 }

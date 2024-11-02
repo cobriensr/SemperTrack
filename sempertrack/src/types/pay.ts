@@ -1,10 +1,10 @@
 // types/pay.ts
 export interface PayCalculation {
-    rank: Rank;
+    rank: string;
     yearsOfService: number;
     basePayRate: number;
-    specialPay: SpecialPay[];
-    allowances: Allowance[];
-    deductions: Deduction[];
+    specialPay: [];
+    allowances: [];
+    deductions: [];
     totalPay: number;
   }

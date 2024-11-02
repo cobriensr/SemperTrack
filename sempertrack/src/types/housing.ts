@@ -1,7 +1,7 @@
 // types/housing.ts
 export interface BAHRate {
     zipCode: string;
-    rank: Rank;
+    rank: string;
     withDependents: number;
     withoutDependents: number;
     year: number;

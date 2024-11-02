@@ -1,5 +1,7 @@
 "use client"
 
+import { ReactElement } from "react";
+
 import { useToast } from "@/lib/hooks/use-toast"
 import {
   Toast,
@@ -10,7 +12,7 @@ import {
   ToastViewport,
 } from "@/components/ui/toast"
 
-export function Toaster() {
+export function Toaster(): ReactElement {
   const { toasts } = useToast()
 
   return (

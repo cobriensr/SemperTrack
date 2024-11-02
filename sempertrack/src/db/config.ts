@@ -22,6 +22,7 @@ const pool = new Pool(poolConfig);
 
 // Add event listeners for connection management
 pool.on('connect', () => {
+  // eslint-disable-next-line no-console
   console.log('New database connection established');
 });
 
@@ -33,7 +34,7 @@ pool.on('error', (err) => {
 export const db = drizzle(pool);
 
 // Health check function
-export async function checkDatabaseHealth() {
+export async function checkDatabaseHealth(): Promise<{ status: string; message: string }> {
   const client = await pool.connect();
   try {
     await client.query('SELECT NOW()');
