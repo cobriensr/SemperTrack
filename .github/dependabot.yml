@@ -1,0 +1,48 @@
+# Dependabot configuration file for Next.js 14 project with TypeScript using pnpm
+version: 2
+updates:
+# Configuration for npm (works for pnpm as well)
+- package-ecosystem: "npm"
+  directory: "/"
+  schedule:
+    interval: "weekly"
+  # Specify the default branch (usually "main" or "master")
+  target-branch: "main"
+  # Allow up to 10 open pull requests for dependencies
+  open-pull-requests-limit: 10
+  # Apply default reviewer and assignee to pull requests
+  reviewers:
+  - "cobriensr"
+  assignees:
+  - "cobriensr"
+  # Labels on pull requests for dependencies
+  labels:
+  - "pnpm"
+  - "dependencies"
+  # Specify which dependency types to update
+  allow:
+  - dependency-type: "direct"
+  - dependency-type: "indirect"
+    # Ignore updates for specific packages (optional)
+    # ignore:
+    #   - dependency-name: "express"
+    #     versions: ["4.x", "5.x"]
+
+# Configuration for GitHub Actions (optional, but recommended)
+- package-ecosystem: "github-actions"
+  directory: "/"
+  schedule:
+    interval: "weekly"
+  # Specify the default branch (usually "main" or "master")
+  target-branch: "main"
+  # Allow up to 5 open pull requests for GitHub Actions
+  open-pull-requests-limit: 10
+  # Apply default reviewer and assignee to pull requests
+  reviewers:
+  - "cobriensr"
+  assignees:
+  - "cobriensr"
+  # Labels on pull requests for GitHub Actions
+  labels:
+  - "github-actions"
+  - "dependencies"
