@@ -168,26 +168,6 @@ npm run deploy
 - [Infrastructure Setup](./docs/infrastructure.md)
 - [Contributing Guide](./CONTRIBUTING.md)
 
-## 🧪 Testing
-
-```bash
-# Run unit tests
-npm run test
-
-# Run integration tests
-npm run test:integration
-
-# Run E2E tests
-npm run test:e2e
-```
-
-## 📈 Monitoring
-
-- CloudWatch Metrics
-- X-Ray Tracing
-- Error Tracking
-- Performance Monitoring
-
 ## 🔒 Security
 
 - AWS IAM Roles
