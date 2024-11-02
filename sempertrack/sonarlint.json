@@ -1,0 +1,11 @@
+{
+    "exclusions": [
+        "**/node_modules/**",
+        "**/bower_components/**",
+        "**/dist/**",
+        "**/build/**",
+        "**/.next/**",
+        "**/playwright-report/**",
+        "**/*.html"
+    ]
+}
