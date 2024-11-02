@@ -161,32 +161,11 @@ npm run build
 npm run deploy
 ```
 
-## 📚 Documentation
-
-- [API Documentation](./docs/api.md)
-- [Database Schema](./docs/schema.md)
-- [Infrastructure Setup](./docs/infrastructure.md)
-- [Contributing Guide](./CONTRIBUTING.md)
-
-## 🔒 Security
-
-- AWS IAM Roles
-- RDS Encryption
-- API Authentication
-- HTTPS Enforcement
-- Regular Security Updates
-
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 
-## 🙏 Acknowledgments
-
-- U.S. Marine Corps for inspiration and values
-- Open source community
-- Contributors and maintainers
-
 ## 📞 Contact
 
-- Project Link: [https://github.com/cobriensr/sempertrack](https://github.com/yourusername/sempertrack)
+- Project Link: [https://github.com/cobriensr/sempertrack](https://github.com/cobriensr/sempertrack)
 - Website: [https://sempertrack.com](https://sempertrack.com)
