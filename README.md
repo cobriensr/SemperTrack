@@ -102,7 +102,7 @@ flowchart TB
 
 ### Prerequisites
 
-- Node.js 18+
+- Node.js 20+
 - Docker
 - AWS CLI
 - Terraform
@@ -111,7 +111,7 @@ flowchart TB
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/sempertrack.git
+git clone https://github.com/cobriensr/sempertrack.git
 
 # Install dependencies
 npm install
@@ -133,7 +133,6 @@ npm run dev
 DATABASE_URL=postgresql://user:password@localhost:5432/sempertrack
 NEXT_PUBLIC_MAPBOX_TOKEN=your_mapbox_token
 AWS_REGION=us-east-1
-# ... more env variables
 ```
 
 ## 📦 Deployment
